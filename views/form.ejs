@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Fill out form!</h1>
+        <form action="/result" method="post">
+            Your Name: <input type="text" name="name"><br><br>
+             Dojo Location: 
+             <select name="location">
+                 <option value="Mountain View">Mountain View</option>
+                 <option value="Los Angeles">Los Angeles</option>
+                 <option value="Seattle">Seattle</option>
+             </select><br><br>
+             Favorite Language:
+             <select name="language">
+                 <option value="Javascript">Javascript</option>
+                 <option value="Python">Python</option>
+                 <option value="Ruby">Ruby</option>
+             </select><br><br>
+             Comment:
+             <textarea name="comment" rows="4" cols="50"></textarea><br><br>
+             <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Submitted Information</h1>
+        <p>Name: <%= result.name %></p>
+        <p>Dojo Location: <%= result.location %></p>
+        <p>Favorite Language: <%= result.language %></p>
+        <p>Comment: <%= result.comment %></p>
+        <form action="/back" method="post">
+            <input type="submit" value="Go Back">
+        </form>
+        <a href="/"><button>Easier Redirect</button></a>
+    </body>
+</html>
